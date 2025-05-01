@@ -2,35 +2,41 @@
 
 ## Aim
 
-To write a Python program to insert 3 elements into a queue and display each element with its index.
+To write a Python program to insert elements into a queue, display all elements, and then display the queue after deleting the first element (front).
+
 
 ## Algorithm
 
-1. Start  
-2. Create a queue  
-3. Append elements to the queue  
-4. Use a loop to print each element and its index  
-5. Stop
+1. Start
+2. Create an empty queue using deque
+3. Insert elements using append()
+4. Display all inserted elements
+5. Remove the first element using popleft()
+6. Display the queue after deletion
+7. Stop
+
 
 ## Program
 
 ```python
+#Reg.NO:212222040120
+#Name:PRASANNA R
 queue = []
 
-# Enqueue elements into the queue
-queue.append("a")
-queue.append("b")
-queue.append("c")
+queue.append('a')
+queue.append('b')
+queue.append('c')
 
-# Display the initial queue
-print("Initial queue:", queue)
+print('Queue after elements are inserted:')
+print(queue)
 
-# Display index and element
-for i in range(len(queue)):
-    print(i, queue[i])
+print('Deleting the first element inserted:')
+print(queue.pop(0))
+
+print("Queue after the first elements is deleted:")
+print(queue)
 ```
 
 ## OUTPUT
-
 
 ## RESULT
