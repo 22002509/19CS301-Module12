@@ -38,5 +38,7 @@ print(queue)
 ```
 
 ## OUTPUT
+![LAB12 DAY3](https://github.com/user-attachments/assets/64ea3acd-fee1-46d6-a790-9a72f7ecc617)
 
 ## RESULT
+Thus, the given program is implemented and executed successfully .
