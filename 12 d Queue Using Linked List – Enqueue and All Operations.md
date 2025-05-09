@@ -6,12 +6,12 @@ To write a Python program to add 4 elements to a queue and print the elements pr
 
 ## Algorithm
 
-1.Start
-2.Create an empty queue using deque
-3.Insert 4 elements using append()
-4.Print the front element using queue[0]
-5.Print the rear element using queue[-1]
-6.Stop
+1. Start
+2. Create an empty queue using deque
+3. Insert 4 elements using append()
+4. Print the front element using queue[0]
+5. Print the rear element using queue[-1]
+6. Stop
 
 ## Program
 
